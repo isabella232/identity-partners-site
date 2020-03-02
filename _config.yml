@@ -1,0 +1,19 @@
+title: Login.gov Partners
+github_repo_url: https://github.com/18F/identity-partners-site  # enables "edit this page" button
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+kramdown:
+  hard_wrap: true
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: documentation
+
+copy_to_destination:
+  - node_modules/identity-style-guide/dist/assets

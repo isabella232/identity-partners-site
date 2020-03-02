@@ -1,0 +1,43 @@
+<header class="usa-header usa-header--basic" role="banner">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="basic-logo">
+        <a href="{{ site.baseurl }}/" title="Home" aria-label="Home">
+          <img src="{{ site.baseurl }}/assets/img/login-gov-logo.svg" class="usa-logo__img" alt="login.gov">
+          <em class="usa-logo__text">Partners</em>
+        </a>
+      </div>
+      <button class="usa-menu-btn">Menu</button>
+    </div>
+    <nav role="navigation" class="usa-nav">
+      <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/why/' %}usa-current{% endif %}" href="{{ site.baseurl }}/why">
+            <span>Why partner</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/product/' %}usa-current{% endif %}" href="{{ site.baseurl }}/product">
+            <span>Product</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/guides/' %}usa-current{% endif %}" href="{{ site.baseurl }}/guides">
+            <span>Guides</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/sandbox/' %}usa-current{% endif %}" href="{{ site.baseurl }}/sandbox">
+            <span>Sandbox</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/contact/' %}usa-current{% endif %}" href="{{ site.baseurl }}/contact">
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
