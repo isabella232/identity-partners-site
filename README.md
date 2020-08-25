@@ -9,7 +9,7 @@ data file](https://jekyllrb.com/docs/datafiles/) –
 [uswds-jekyll](https://github.com/18F/uswds-jekyll) for its navigation.
 
 The primary navigation links displayed across this sites' header are defined by
-a named list called `primary`: 
+a named list called `primary`:
 
 ```yml
 # _data/navigation.yml
@@ -55,7 +55,7 @@ why-partner:
         href: /use-cases/
   - text: Pricing
     href: /pricing/
-``` 
+```
 
 Finally, side navigation menus are logically associated with primary menu items
 by matching the `href` of the primary menu item to the identifier of the side
@@ -63,6 +63,6 @@ navigation menu; e.g., `/why-partner/` and `why-partner`.
 
 ## Adding Javascript
 
-Store any additional code in the `scripts` directory - `webpack` bundles everything
+Store any additional code in the `src/js` directory - `webpack` bundles everything
 there into `assets/js/bundle.js`, which `jekyll` automatically builds to
 `_site/assets/js/bundle.js`.

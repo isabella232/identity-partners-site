@@ -5,6 +5,7 @@
 // 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
 
 $blue: #0071bb !default;
+$blue-lightest: #f2f9ff !default;
 $navy: #112e51 !default;
 $white: #fff !default;
 $breakpoint-menu: '(max-width: 1023px)' !default; //widths less than 1024px show the menu layover
@@ -25,6 +26,58 @@ html {
   a {
     color: $white;
     text-decoration: underline;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4em 8em 2em 1em;
+    background: $white url(../img/login-gov-logo.svg) 8em 4em no-repeat;
+    background-size: 10em;
+
+    .system-status {
+      display: flex;
+      align-items: center;
+      padding-top: 1em;
+
+      &::before {
+        content: '♥';
+        display: inline-block;
+        margin-right: 0.25rem;
+        color: $blue;
+      }
+
+      a {
+        margin: 0;
+      }
+    }
+
+    .grid {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid darken($blue-lightest, 15%);
+      flex-wrap: wrap;
+
+      h4 {
+        margin: 0 0 1em 0;
+      }
+
+      section {
+        margin-right: 3rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    a {
+      color: $blue;
+      text-decoration: none;
+      display: block;
+      margin: 0 0 1em 0;
+      white-space: nowrap;
+    }
   }
 }
 
@@ -74,6 +127,19 @@ html {
 }
 
 @media #{$breakpoint-menu} {
+  .footer {
+    .nav {
+      background-position: center 3em;
+      padding: 6em 2em 2em;
+
+      .grid {
+        section {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
   .footer-sub-1 {
     padding: 1em;
     display: block;

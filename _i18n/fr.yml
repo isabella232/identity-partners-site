@@ -24,3 +24,15 @@ index:
         solutions logicielles modernes.
       portfolio: TTS Solutions est un portefeuille de produits et de services qui aident les agences
         à améliorer la fourniture d'informations et de services au public.
+nav:
+  about_us: À propos de nous
+  become_a_partner: Devenir un partenaire
+  contact: Contact
+  developer_guide: Guide du développeur
+  groups:
+    agencies: Pour les agences
+    learn: Apprendre
+    support: Soutien
+  help: Aide
+  privacy_&_security: Confidentialité et sécurité
+  system_status: État du système login.gov

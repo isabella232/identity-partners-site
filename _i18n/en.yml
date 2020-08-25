@@ -23,3 +23,15 @@ layout:
         processes, personnel, and software solutions.
       portfolio: TTS Solutions is a portfolio of products and services that help agencies improve
         delivery of information and services to the public.
+nav:
+  about_us: About us
+  become_a_partner: Become a partner
+  contact: Contact
+  developer_guide: Developer guide
+  groups:
+    agencies: For Agencies
+    learn: Learn
+    support: Support
+  help: Help
+  privacy_&_security: Privacy & security
+  system_status: login.gov system status
