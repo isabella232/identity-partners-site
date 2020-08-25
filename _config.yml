@@ -5,9 +5,16 @@ collections:
     output: true
     permalink: /:path/
 
+# i18n
+languages:
+  - en
+  - es
+  - fr
+
 # protocol/hostname required for sitemap generation
 url: "https://partners.login.gov"
 plugins:
+  - jekyll-multiple-languages-plugin
   - jekyll-sitemap
 
 kramdown:

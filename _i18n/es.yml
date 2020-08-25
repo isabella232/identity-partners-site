@@ -1,0 +1,25 @@
+---
+actions:
+  read_more: Lee mas
+index:
+  footer:
+    additional_info: Puede encontrar información adicional sobre la Administración de
+      Servicios Generales de EE. UU. (GSA) en
+    for_questions: Si tiene preguntas sobre este sitio web, envíe un correo electrónico a email.gsa.gov.
+    heading: Aprenda más
+    learn_more: Aprende más
+    links:
+      accessibility: Ver declaración de accesibilidad
+      budget: VVer informes de presupuesto y rendimiento
+      foia: Presentar una solicitud de la Ley de Libertad de Información (FOIA)
+      no_fear_act: Ver datos de No FEAR Act
+      report_fraud: Denuncie fraude, despilfarro o abuso a la Oficina del Inspector General
+    org: "[login.gov](/) es un producto de los [Servicios de Transformación Tecnológica](https://www.gsa.gov/tts)
+      de GSA y está administrado por la [Oficina de Soluciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions)."
+    tts:
+      about: Como parte de los Servicios de transformación tecnológica (TTS) de GSA, aplicamos
+        metodologías y tecnologías modernas para mejorar la experiencia del público con el gobierno.
+        Ayudamos a las agencias a hacer que sus servicios sean más accesibles, eficientes y efectivos
+        con aplicaciones, plataformas, procesos, personal y soluciones de software modernas.
+      portfolio: TTS Solutions es una cartera de productos y servicios que ayudan a las agencias a
+        mejorar la entrega de información y servicios al público.

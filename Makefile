@@ -1,5 +1,5 @@
 run: install-dependencies
-	bundle exec jekyll serve --trace --baseurl ''
+	npm run webapp
 
 clean:
 	rm -rf _site

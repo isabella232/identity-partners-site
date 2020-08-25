@@ -1,21 +1,33 @@
-<footer class="usa-footer usa-footer--slim" role="contentinfo">
-  <div class="grid-container usa-footer__return-to-top">
-    <div class="grid-row flex-align-center">
-      <div class="grid-col flex-1">
-        <a href="#">Return to top</a>
+<footer class="footer bg-navy">
+  <div class="footer-sub-1">
+    <div class="product-mgmt-statement">
+      {% include svg/gsa-logo.svg %}
+      {{ site.translations[site.lang]["layout"]["footer"]["org"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+    </div>
+    <button class="usa-button usa-button--outline learn-more">{% t layout.footer.learn_more %}</button>
+    <div class="learn-more-section-container">
+      <div class="learn-more-section">
+        <section class="tts">
+          <p>{% t layout.footer.tts.about %} <a href="https://www.gsa.gov/tts">{% t actions.read_more %}</a></p>
+          <p>{% t layout.footer.tts.portfolio %} <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions">{% t actions.read_more %}</a></p>
+        </section>
+        <section class="questions_addl_info">
+          <p>{% t layout.footer.for_questions %}</p>
+          <p>{% t layout.footer.additional_info %} <a href="https://www.gsa.gov/about">https://www.gsa.gov/about</a></p>
+          <nav>
+            <ul>
+              <li><a href="https://www.gsaig.gov/">{% t layout.footer.links.report_fraud %}</a></li>
+              <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{% t layout.footer.links.foia %}</a></li>
+              <li><a href="https://www.gsa.gov/reference/reports/budget-performance">{% t layout.footer.links.budget %}</a></li>
+              <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{% t layout.footer.links.accessibility %}</a></li>
+              <li><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{% t layout.footer.links.no_fear_act %}</a></li>
+            </ul>
+          </nav>
+        </section>
       </div>
     </div>
   </div>
-  <div class="usa-footer__secondary-section">
-    <div class="grid-container">
-      <div class="usa-footer__logo grid-row grid-gap-2">
-        <div class="grid-col-auto">
-          <img src="{{ site.baseurl }}/assets/img/gsa-logo-rev.svg" alt="U.S. General Services Administration logo" class="usa-footer__logo-img usa-footer__slim usa-footer__medium">
-        </div>
-        <div class="grid-col-auto">
-          <h3 class="usa-footer__logo-heading">U.S. General Services Administration</h3>
-        </div>
-      </div>
-    </div>
+  <div class="footer-sub-2 h6">
+    Looking for U.S. government and services? <a href="https://usa.gov">Visit USA.gov</a>
   </div>
 </footer>

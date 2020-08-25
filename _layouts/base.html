@@ -72,9 +72,9 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   </head>
   <body class="page-{{ page.title | slugify }} layout-{{ page.layout }}{% if page.class %} page-{{ page.class | slugify }}{% endif %}">
-    <script src="{{ site.baseurl }}/assets/js/anchor.js"></script>
     {{ content }}
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bundle.js"></script>
     {% include dap.html %}
     {% include google_analytics.html %}
   </body>

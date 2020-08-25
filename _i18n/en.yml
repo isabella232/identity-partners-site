@@ -1,0 +1,25 @@
+---
+actions:
+  read_more: Read more
+layout:
+  footer:
+    additional_info: Additional information about the U.S. General Services Administration (GSA)
+      can be found at
+    for_questions: For questions about this website, email email.gsa.gov.
+    heading: Contact us
+    learn_more: Learn more
+    links:
+      accessibility: View accessibility statement
+      budget: View budget and performance reports
+      foia: Submit a Freedom of Information Act (FOIA) request
+      no_fear_act: View No FEAR Act data
+      report_fraud: Report fraud, waste, or abuse to the Office of the Inspector General
+    org: "[login.gov](site.baseurl) is a product of GSA's [Technology Transformation Services](https://www.gsa.gov/tts)
+      and managed by [Office of Solutions](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions)."
+    tts:
+      about: As part of GSA’s Technology Transformation Services (TTS), we apply modern methodologies
+        and technologies to improve the public’s experience with government. We help agencies make
+        their services more accessible, efficient, and effective with modern applications, platforms,
+        processes, personnel, and software solutions.
+      portfolio: TTS Solutions is a portfolio of products and services that help agencies improve
+        delivery of information and services to the public.

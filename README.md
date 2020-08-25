@@ -60,3 +60,9 @@ why-partner:
 Finally, side navigation menus are logically associated with primary menu items
 by matching the `href` of the primary menu item to the identifier of the side
 navigation menu; e.g., `/why-partner/` and `why-partner`.
+
+## Adding Javascript
+
+Store any additional code in the `scripts` directory - `webpack` bundles everything
+there into `assets/js/bundle.js`, which `jekyll` automatically builds to
+`_site/assets/js/bundle.js`.
