@@ -4,8 +4,8 @@ const { NODE_ENV = 'production' } = process.env;
 
 module.exports = {
   entry: [
-    './scripts/anchor.js',
-    './scripts/utils.js'
+    './src/js/anchor.js',
+    './src/js/utils.js'
   ],
   output: {
     filename: 'bundle.js',
