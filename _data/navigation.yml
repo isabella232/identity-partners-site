@@ -4,30 +4,7 @@
 primary:
   - text: Product
     href: /product/
-  - text: Guides
-    href: /guides/
-  - text: Sandbox
-    href: /sandbox/
-  - text: Contact
+  - text: Developers
+    href: https://developers.login.gov
+  - text: Contact us
     href: /contact/
-
-why-partner:
-  - text: Let's Partner
-    href: /lets-partner/
-    links:
-      - text: Return on Investment
-        href: /return-on-investment/
-      - text: Measures of Success
-        href: /measures-of-success/
-      - text: Determine Fit
-        href: /determine-fit/
-      - text: Interagency Agreeements
-        href: /interagency-agreement/
-      - text: Use cases
-        href: /use-cases/
-  - text: Pricing
-    href: /pricing/
-  - text: Get Started
-    href: /get-started/
-  - text: What our Partners are Saying
-    href: /partners-saying/
