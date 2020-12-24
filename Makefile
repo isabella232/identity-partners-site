@@ -1,19 +1,17 @@
 run: install-dependencies
 	bundle exec jekyll serve --trace --baseurl ''
 
-clean:
-	rm -rf _site
-
-test: build
-	bundle exec rspec spec
 
 build: install-dependencies
 	bundle exec jekyll build
 
-install-dependencies: bundle npm
+clean:
+	rm -rf _site
 
-npm:
-	npm ci
-
-bundle:
+install-dependencies:
 	bundle check || bundle install
+	yarn check || yarn install
+
+update:
+	bundle update
+	yarn upgrade

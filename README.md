@@ -1,5 +1,7 @@
 # partners.login.gov
 
+Use the [`Makefile`](Makefile) to run common commands.
+
 ## Navigation
 
 Configuration of the primary and side navigation menus is done via a [Jekyll
@@ -9,7 +11,7 @@ data file](https://jekyllrb.com/docs/datafiles/) –
 [uswds-jekyll](https://github.com/18F/uswds-jekyll) for its navigation.
 
 The primary navigation links displayed across this sites' header are defined by
-a named list called `primary`: 
+a named list called `primary`:
 
 ```yml
 # _data/navigation.yml
@@ -55,7 +57,7 @@ why-partner:
         href: /use-cases/
   - text: Pricing
     href: /pricing/
-``` 
+```
 
 Finally, side navigation menus are logically associated with primary menu items
 by matching the `href` of the primary menu item to the identifier of the side
